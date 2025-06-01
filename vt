@@ -1,0 +1,6 @@
+# Simple program to calculate squares
+numbers = range(1, 11)  # Numbers from 1 to 10
+
+for num in numbers:
+    square = num * num
+    print(f"The square of {num} is {square}")
